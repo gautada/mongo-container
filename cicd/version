@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "mongo-$(docker exec -it cicd-mongo /usr/bin/mongod --version | head --lines=1 | cut -d' ' -f3) 

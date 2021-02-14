@@ -1,0 +1,4 @@
+#!/bin/sh
+export DOCKER_HOST=192.168.4.200
+docker build --tag nosql:build-mongo --file=Dockerfile.mongo ./
+
